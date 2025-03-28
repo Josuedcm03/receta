@@ -1,12 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name = "description" content="receta de cocina">
+    <meta name = "author" content="Kano">
+    <title>Postre de café</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </head>
 <body>
-    
+    <div class="container">
+
+        <header>
+            <h1 class="text-success"> Receta de Postre de Café</h1>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#utensilios">Utensilios</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#ingredientes">Ingredientes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#preparacion">Preparación</a>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="cafe1.avif" class="d-block w-100" alt="srh_media_1658415396" width="50" height="400">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cafe2.jpeg" class="d-block w-100" alt="srh_media_1658415396" width="100" height="400">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </header>
+
+        <main class="text-primary">
+            <h2 >Postre de Café</h2>
+            <p class="text-dark">Este postre de café es una receta muy sencilla y rápida de preparar, ideal para los amantes del café. 
+                Es un postre muy suave y cremoso, con un sabor intenso a café que te encantará. 
+                Además, es un postre sin horno, por lo que no tendrás que encender el horno para prepararlo. 
+                ¡Anímate a preparar este delicioso postre de café y disfruta de su sabor y textura!
+            </p>
+
+
+            <section id="utensilios">
+                <h3 class="text-primary">Utensilios</h3>
+                <ul class="text-dark">
+                    <li>Batidora</li>
+                    <li>2 recipientes</li>
+                    <li>2 cucharas</li>
+                    <li>Refrigerador</li>
+                </ul>
+            </section>
+
+            <section id="ingredientes">
+                <h3 class="text-primary">Ingredientes</h3>
+                <ul class="text-dark">
+                    <li>1 1/2 Paquetes de queso crema</li>
+                    <li>1 Envase de Media Crema NESTLÉ® (190 g)aja Media Crema NESTLÉ® (190 g)</li>
+                    <li>1 Lata de Leche Condensada</li>
+                    <li>3 Cucharadas de Café Soluble</li>
+                    <li>1 Sobre de grenetina (7 g), hidratado en ¼ taza de agua y disuelta a baño María</li>
+                    <li>2 Cucharadas de Café Soluble</li>
+                    <li>Cucharadas de Café Soluble</li>
+                    <li>24 Galletas tipo Lengua</li>
+                    <li>4 Cucharaditas de cocoa</li>
+                </ul>
+            </section>
+
+            <section id="preparacion">
+                <h3 class="text-primary">Preparación</h3>
+                <ol class="text-dark" >
+                    <li>Para la crema de café, licúa el queso crema con la Media Crema NESTLÉ®, la Leche Condensada LA LECHERA® y 3
+                        cucharadas de Café 100% Puro Soluble NESCAFÉ® CLÁSICO®. Con la licuadora encendida agrega la grenetina previamente
+                        disuelta y reserva.</li>
+                    <li>Disuelve 2 cucharadas de Café 100% Puro Soluble NESCAFÉ® CLÁSICO® en el agua caliente. Remoja una galleta en el café
+                        preparado, coloca en una copa y repite con más galletas hasta formar una base, agrega un poco de la crema de café y
+                        una capa de galletas remojadas; repite en cada una de las copas.</li>
+                    <li>Refrigera por 30 minutos, espolvorea con cocoa y disfruta.</li>
+                </ol>
+            </section>
+
+        </main>
+
+
+        <footer class="text-center bg-secondary text-white my-5 py-3">
+            <p>2025 - Recetas Nestle</p>
+        </footer>
+    </div>
 </body>
 </html>
